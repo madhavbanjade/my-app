@@ -9,13 +9,13 @@ import {
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center p-2 md:p-6 md:mt-20 mt-[50px] min-h-screen md:h-full">
+    <div className="flex flex-col items-center p-2 md:p-6 md:mt-20 mt-[50px]  md:h-full">
       <div className="w-full max-w-4xl rounded-lg md:p-1 p-2 flex flex-col justify-between">
         {/* Heading */}
         <div className="md:text-left text-left leading-6 sm:pl-0 pl-4 mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold">
             I am excited to learn about your{" "}
-            <span className="uppercase">project</span>. <br /> Ready to get
+            <span className="uppercase">project</span>. Ready to get
             started?
           </h1>
           <p className="mt-4 text-base sm:text-lg leading-6">
@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Details */}
-        <div className="space-y-6 sm:space-y-2">
+        <div className="space-y-6 sm:space-y-2 ml-4">
           {/* Address */}
           <div className="flex flex-col sm:flex-row sm:items-start sm:space-x-4 text-left sm:text-left">
             <FaMapMarkerAlt className="text-2xl text-blue-400  sm:mx-0 " />
@@ -55,7 +55,7 @@ const Contact = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="mt-8 flex justify-center space-x-4 sm:space-x-6">
+        <div className="mt-6 flex justify-start space-x-4 sm:space-x-6 ml-4">
           <a
             href="https://wa.me/9749344926"
             target="_blank"

@@ -23,9 +23,8 @@ const Header = () => {
 
   return (
     <nav
-      className={`sticky top-0 z-50 flex flex-row mx-auto gap-10 px-16 py-4 items-center transition-all duration-300 ${
-        isScrolled ? "bg-[#303030] shadow-md" : "bg-transparent shadow-none"
-      }`}
+      className={`sticky top-0 z-50 flex flex-row mx-auto gap-10 px-16 py-4 items-center transition-all duration-300 ${isScrolled ? "bg-[#303030] shadow-md" : "bg-transparent shadow-none"
+        }`}
     >
       {/* Portfolio - Scrolls to Home */}
       <span
@@ -50,9 +49,9 @@ const Header = () => {
       <ul className="hidden lg:flex flex-row text-left gap-8 ml-auto text-lg">
         {[
           { id: "home", label: "Home" },
+          { id: "about", label: "About" },
           { id: "skills", label: "Skills" },
           { id: "projects", label: "Projects" },
-          { id: "about", label: "About" },
           { id: "contact", label: "Contact" },
         ].map(({ id, label }) => (
           <li key={id}>
@@ -71,9 +70,9 @@ const Header = () => {
         <ul className="lg:hidden absolute top-16 right-0 bg-[#303030] w-40 py-2 rounded-md text-white shadow-lg">
           {[
             { id: "home", label: "Home" },
+            { id: "about", label: "About" },
             { id: "skills", label: "Skills" },
             { id: "projects", label: "Projects" },
-            { id: "about", label: "About" },
             { id: "contact", label: "Contact" },
           ].map(({ id, label }) => (
             <li

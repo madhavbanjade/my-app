@@ -8,17 +8,18 @@ import Arrow from "./Arrow";
 import Footer from "./Footer";
 
 const Home = () => {
+  console.log("test");
   return (
-    <div className="flex flex-col items-center w-full md:mt-0 mt-48 ">
+    <div className="flex flex-col items-center w-full md:mt-0  ">
       {/* Hero Section */}
       <div
         id="home"
         className="w-full h-screen flex flex-col md:flex-row items-center justify-center gap-10 px-8 md:px-16"
       >
         {/* Text Section */}
-        <div className="w-full md:w-1/2 text-left md:text-left flex flex-col justify-center">
+        <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
           <h1 className="text-3xl font-semibold">
-            Hello, I'm <span className="text-4xl uppercase">Madhav Banjade</span>
+            Hi, I'm <span className="text-4xl uppercase">Madhav Banjade</span>
           </h1>
           <h2 className="text-3xl mt-2 pb-4 text-blue-400">
             Mern-stack Developer
@@ -32,7 +33,7 @@ const Home = () => {
             building efficient, secure, and innovative solutions tailored to
             user needs.
           </p>
-          <div className="flex flex-row md:flex-row gap-6 mt-4 md:mt-8">
+          <div className="flex flex-row md:flex-row gap-6 mt-4 md:mt-8 ">
             {/* <Link
               to="/contact"
               className="font-medium hover:bg-sky-600 hover:text-black px-4 py-2 rounded cursor-pointer transition duration-300 border-2 border-blue-400 text-blue-400"
@@ -51,7 +52,7 @@ const Home = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="flex flex-row justify-center md:justify-start mt-6 gap-6">
+          <div className="flex flex-row justify-start md:justify-start mt-6 gap-6">
             <a
               href="https://www.instagram.com/banjade.m/"
               target="_blank"
@@ -80,7 +81,7 @@ const Home = () => {
         </div>
 
         {/* Photo Section */}
-        <div className="w-full md:w-1/2 flex justify-center items-center md:mt-8 mt-[50px]">
+        <div className="w-full md:w-1/2 flex justify-center items-center md:mt-8 mt-6">
           <img
             src="/IMG_4232.jpg" // Use optimized image here
             alt="Madhav Banjade portrait"
